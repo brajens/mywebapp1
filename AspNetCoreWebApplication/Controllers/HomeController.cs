@@ -12,7 +12,7 @@ namespace AspNetCoreWebApplication.Controllers
 
         public IActionResult Error()
         {
-            ViewData["Message"] = "We've encountered an error :(";
+            ViewData["Message"] = "We've encountered an error :(. Please work.";
             return View();
         }
     }
