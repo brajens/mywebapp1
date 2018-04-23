@@ -6,7 +6,7 @@ namespace AspNetCoreWebApplication.Controllers
     {
         public IActionResult Index()
         {
-            ViewData["Message"] = "You just created a ASP.Net Core web application!. This is working good.";
+            ViewData["Message"] = "You just created a ASP.Net Core web application!. This is working good. Please work from IDE.";
             return View();
         }
 
